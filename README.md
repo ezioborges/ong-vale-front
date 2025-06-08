@@ -1,66 +1,37 @@
-🌈 VALE
+# 🌈 VALE
+
 Bem-vindo ao repositório do meu projeto frontend! Este é um boilerplate de um aplicativo React moderno, configurado com TypeScript para tipagem forte, Bootstrap para estilização responsiva, React Router para navegação e ferramentas de desenvolvimento como Prettier e ESLint para manter a qualidade e consistência do código.
 
-🛠️ Tecnologias Utilizadas
-Este projeto foi construído e configurado com as seguintes tecnologias e ferramentas:
+<details>
+<summary><strong>🛠️ Tecnologias Utilizadas</strong></summary><br />
 
-React
+- **REACT:** Um Framework JavaScript para construir interfaces de usuário interativas;
+- **TypeScript:** Um superconjunto de JavaScript que adiciona tipagem estática, melhorando a escalabilidade e a detecção de erros em tempo de desenvolvimento;
+- **Bootstrap**: O framework CSS mais popular do mundo para construir layouts responsivos e mobile-first com componentes pré-estilizados;
+- **React Router DOM**: Uma biblioteca de roteamento declarativo para aplicações React, permitindo a navegação entre diferentes views da aplicação;
+- **Prettier:** Um formatador de código opinativo que garante um estilo de código consistente em todo o projeto;
+- **ESLint:** Uma ferramenta de linting estática para identificar padrões problemáticos no código JavaScript/TypeScript.
+</details>
 
-Uma biblioteca JavaScript para construir interfaces de usuário interativas.
+<details>
+<summarty>🚀 Como Iniciar o Projeto</summarty><br />
 
-TypeScript
-
-Um superconjunto de JavaScript que adiciona tipagem estática, melhorando a escalabilidade e a detecção de erros em tempo de desenvolvimento.
-
-Bootstrap
-
-O framework CSS mais popular do mundo para construir layouts responsivos e mobile-first com componentes pré-estilizados.
-
-React Router DOM
-
-Uma biblioteca de roteamento declarativo para aplicações React, permitindo a navegação entre diferentes views da aplicação.
-
-Prettier
-
-Um formatador de código opinativo que garante um estilo de código consistente em todo o projeto.
-
-ESLint
-
-Uma ferramenta de linting estática para identificar padrões problemáticos no código JavaScript/TypeScript.
-
-🚀 Como Iniciar o Projeto
 Siga estas instruções para configurar e executar o projeto em sua máquina local.
 
-Pré-requisitos
-Certifique-se de ter o Node.js e o npm (ou Yarn) instalados.
+**Pré-requisitos**
 
-Instalação
+Certifique-se de ter o Node.js e o npm instalados.
+
+**Instalação**
 Clone este repositório para sua máquina local:
 
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-
-Navegue até o diretório do projeto:
-
-cd SEU_REPOSITORIO
-
-Instale as dependências:
-
-npm install
-
-# ou
-
-yarn install
-
-Executando o Projeto
-Para iniciar o servidor de desenvolvimento:
-
-npm run dev
-
-# ou
-
-yarn dev
-
-O aplicativo estará disponível em http://localhost:5173 (ou outra porta, se 5173 estiver em uso).
+- `git clone https://github.com/ezioborges/ong-vale-front.git`
+- Navegue até o diretório do projeto:
+- cd ong-vale-front
+- Instale as dependências:
+- npm install
+- npm start
+</details>
 
 📜 Scripts Disponíveis
 No diretório do projeto, você pode executar os seguintes scripts:
