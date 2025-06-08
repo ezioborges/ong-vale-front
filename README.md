@@ -1,46 +1,120 @@
-# Getting Started with Create React App
+🌈 VALE
+Bem-vindo ao repositório do meu projeto frontend! Este é um boilerplate de um aplicativo React moderno, configurado com TypeScript para tipagem forte, Bootstrap para estilização responsiva, React Router para navegação e ferramentas de desenvolvimento como Prettier e ESLint para manter a qualidade e consistência do código.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🛠️ Tecnologias Utilizadas
+Este projeto foi construído e configurado com as seguintes tecnologias e ferramentas:
 
-## Available Scripts
+React
 
-In the project directory, you can run:
+Uma biblioteca JavaScript para construir interfaces de usuário interativas.
 
-### `npm start`
+TypeScript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Um superconjunto de JavaScript que adiciona tipagem estática, melhorando a escalabilidade e a detecção de erros em tempo de desenvolvimento.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Bootstrap
 
-### `npm test`
+O framework CSS mais popular do mundo para construir layouts responsivos e mobile-first com componentes pré-estilizados.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React Router DOM
 
-### `npm run build`
+Uma biblioteca de roteamento declarativo para aplicações React, permitindo a navegação entre diferentes views da aplicação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Prettier
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Um formatador de código opinativo que garante um estilo de código consistente em todo o projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ESLint
 
-### `npm run eject`
+Uma ferramenta de linting estática para identificar padrões problemáticos no código JavaScript/TypeScript.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+🚀 Como Iniciar o Projeto
+Siga estas instruções para configurar e executar o projeto em sua máquina local.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pré-requisitos
+Certifique-se de ter o Node.js e o npm (ou Yarn) instalados.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instalação
+Clone este repositório para sua máquina local:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 
-## Learn More
+Navegue até o diretório do projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+cd SEU_REPOSITORIO
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Instale as dependências:
+
+npm install
+
+# ou
+
+yarn install
+
+Executando o Projeto
+Para iniciar o servidor de desenvolvimento:
+
+npm run dev
+
+# ou
+
+yarn dev
+
+O aplicativo estará disponível em http://localhost:5173 (ou outra porta, se 5173 estiver em uso).
+
+📜 Scripts Disponíveis
+No diretório do projeto, você pode executar os seguintes scripts:
+
+npm run dev ou yarn dev: Inicia o servidor de desenvolvimento.
+
+npm run build ou yarn build: Compila o aplicativo para produção na pasta dist.
+
+npm run lint ou yarn lint: Executa o ESLint para verificar problemas de código.
+
+npm run lint:fix ou yarn lint:fix: Executa o ESLint e tenta corrigir automaticamente os problemas.
+
+npm run preview ou yarn preview: Previsualiza a versão de produção localmente.
+
+npm run format ou yarn format: Executa o Prettier para formatar o código e sobrescreve os arquivos.
+
+npm run check-format ou yarn check-format: Verifica se o código está formatado com o Prettier sem fazer alterações.
+
+📂 Estrutura do Projeto
+.
+├── public/ # Arquivos estáticos (ex: index.html, favicon)
+├── src/ # Código fonte da aplicação
+│ ├── assets/ # Imagens, ícones, etc.
+│ ├── components/ # Componentes React reutilizáveis
+│ ├── pages/ # Páginas da aplicação (Home, About, Contact, etc.)
+│ ├── App.tsx # Componente principal da aplicação
+│ ├── main.tsx # Ponto de entrada da aplicação
+│ └── index.css # Estilos globais
+├── .eslintrc.cjs # Configuração do ESLint
+├── .gitignore # Arquivos/pastas a serem ignorados pelo Git
+├── .prettierrc # Configuração do Prettier
+├── package.json # Metadados do projeto e scripts
+├── tsconfig.json # Configuração do TypeScript
+├── tsconfig.node.json # Configuração do TypeScript para ambiente Node.js
+└── vite.config.ts # Configuração do Vite
+
+🤝 Contribuição
+Contribuições são bem-vindas! Se você quiser adicionar recursos, corrigir bugs ou melhorar a documentação, por favor:
+
+Faça um fork do repositório.
+
+Crie uma nova branch (git checkout -b feature/nome-da-feature).
+
+Faça suas alterações e commit (git commit -m 'feat: Adiciona nova feature').
+
+Envie para a branch (git push origin feature/nome-da-feature).
+
+Abra um Pull Request.
+
+📄 Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+
+📸 Screenshots / Demos
+(Aqui você pode adicionar screenshots ou GIFs do seu aplicativo em funcionamento. Isso torna o README muito mais visual e atraente!)
+
+Exemplo:
+Coloque aqui uma imagem da sua página inicial!

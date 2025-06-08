@@ -1,0 +1,14 @@
+# Ignorar arquivos de build
+build/
+dist/
+public/
+
+# Ignorar dependências do Node
+node_modules/
+
+# Ignorar outros arquivos gerados
+.env
+.DS_Store
+
+# Você pode adicionar arquivos específicos aqui também
+*.log
