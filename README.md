@@ -9,6 +9,7 @@ Bem-vindo ao repositório do meu projeto frontend! Este é um boilerplate de um 
 - **TypeScript:** Um superconjunto de JavaScript que adiciona tipagem estática, melhorando a escalabilidade e a detecção de erros em tempo de desenvolvimento;
 - **Bootstrap**: O framework CSS mais popular do mundo para construir layouts responsivos e mobile-first com componentes pré-estilizados;
 - **React Router DOM**: Uma biblioteca de roteamento declarativo para aplicações React, permitindo a navegação entre diferentes views da aplicação;
+- **React Testing Library** Uma solução leve para testar componentes React. Fornece funções utilitárias incentivando melhores práticas nos testes;
 - **Prettier:** Um formatador de código opinativo que garante um estilo de código consistente em todo o projeto;
 - **ESLint:** Uma ferramenta de linting estática para identificar padrões problemáticos no código JavaScript/TypeScript.
 </details>
