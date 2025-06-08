@@ -14,7 +14,7 @@ Bem-vindo ao repositório do meu projeto frontend! Este é um boilerplate de um 
 </details>
 
 <details>
-<summarty>🚀 Como Iniciar o Projeto</summarty><br />
+<summary>🚀 Como Iniciar o Projeto</summary><br />
 
 Siga estas instruções para configurar e executar o projeto em sua máquina local.
 
