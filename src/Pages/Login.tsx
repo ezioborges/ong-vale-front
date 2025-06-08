@@ -48,7 +48,7 @@ const Login = () => {
             <button
               type="submit"
               data-testid="login-btn"
-              className="btn btn-primary w-50"
+              className="btn btn-primary w-50 fs-4 fw-bold"
             >
               Entrar
             </button>
