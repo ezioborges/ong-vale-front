@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.3.0",
@@ -17,6 +18,18 @@
     "react-bootstrap": "2.10.10",
     "react-dom": "19.1.0",
     "react-router-dom": "7.6.2",
+=======
+    "@testing-library/dom": "^10.4.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "bootstrap": "^5.3.6",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+>>>>>>> d683fc7dc64820d943ed6df684d183b9c373f6e8
     "react-scripts": "5.0.1",
     "typescript": "4.9.5",
     "web-vitals": "2.1.4"
@@ -31,12 +44,6 @@
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -50,6 +57,7 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@typescript-eslint/eslint-plugin": "8.33.1",
     "@typescript-eslint/parser": "8.33.1",
     "eslint": "9.28.0",
@@ -59,5 +67,25 @@
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "5.2.0",
     "prettier": "3.5.3"
+=======
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@typescript-eslint/eslint-plugin": "^8.33.1",
+    "@typescript-eslint/parser": "^8.33.1",
+    "babel-jest": "^30.0.0-beta.3",
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.4.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "jest": "^27.5.1",
+    "jest-environment-jsdom": "^30.0.0-beta.3",
+    "prettier": "^3.5.3"
+>>>>>>> d683fc7dc64820d943ed6df684d183b9c373f6e8
   }
 }
