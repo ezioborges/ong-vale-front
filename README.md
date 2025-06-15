@@ -20,14 +20,10 @@ Bem-vindo ao repositório do meu projeto frontend! Este é um boilerplate de um 
 **Pré-requisitos**
 Certifique-se de ter o Node.js e o npm instalados.
 **Instalação**
-Clone este repositório para sua máquina local:
-
-- `git clone https://github.com/ezioborges/ong-vale-front.git`
-- Navegue até o diretório do projeto:
-- cd ong-vale-front
-- Instale as dependências:
-- npm install
-- npm start
+- Clone este repositório para sua máquina local: `git clone https://github.com/ezioborges/ong-vale-front.git`
+- Navegue até o diretório do projeto: `cd ong-vale-front`
+- Instale as dependências: `npm install`
+`npm start`
 </details>
 <br />
 
